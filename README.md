@@ -1,4 +1,5 @@
-Hi, My name is Prajwal Poojari
+
+Hi, My name is Prajwal
 ========================================================================================================================================
 
 CSE Student
@@ -6,7 +7,16 @@ CSE Student
 
 * 🌍 I'm based in Bengaluru  
 * ✉️ You can contact me at prajwalpoojari451@gmail.com  
-* 🧠 I'm currently learning Full-Stack & AI development  
+* 🧠 I'm currently learning Full-Stack, AI development
+
+<br>
+
+<!-- 👁️ Visitor Count -->
+<p align="left">
+<img src="https://komarev.com/ghpvc/?username=user1-prajwal&label=Profile%20views&color=0e75b6&style=flat" />
+</p>
+
+<br>
 
 <p align="left">
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" width="36"/>&nbsp;
@@ -32,17 +42,8 @@ CSE Student
 
 ### Socials
 
-
-
 <p align="left">
 <a href="https://www.github.com/user1-prajwal"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32"/></a>&nbsp;
 <a href="https://www.linkedin.com/in/user1-prajwal451"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32"/></a>
 </p>
 
-### Badges
-
-<b>My GitHub Stats</b>
-
-<a href="http://www.github.com/user1-prajwal">
-<img src="https://github-readme-stats.vercel.app/api?username=user1-prajwal&show_icons=true&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true" />
-</a>
