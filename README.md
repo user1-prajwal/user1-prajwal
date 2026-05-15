@@ -5,9 +5,9 @@ Hi, My name is Prajwal
 CSE Student
 -----------
 
-* 🌍 I'm based in Bengaluru  
-* ✉️ You can contact me at prajwalpoojari451@gmail.com  
-* 🧠 I'm currently learning Full-Stack, AI development
+* 🌍 based in Bengaluru,India 
+* 🧠 currently learning Full-Stack & AI development
+* ✉️ prajwalpoojari451@gmail.com
 
 <br>
 
