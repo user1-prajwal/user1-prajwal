@@ -5,9 +5,10 @@ Hi, My name is Prajwal
 CSE Student
 -----------
 
-* 🌍 based in Bengaluru,India 
-* 🧠 currently learning Full-Stack & AI development
-* ✉️ prajwalpoojari451@gmail.com
+* based in Bengaluru, India
+* Currently working on DriftWatch
+* Contact: [prajwalpoojari451@gmail.com](mailto:prajwalpoojari451@gmail.com)
+
 
 <br>
 
