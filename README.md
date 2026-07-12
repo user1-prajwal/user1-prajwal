@@ -1,13 +1,15 @@
 
-Hi, My name is Prajwal
+Hi, I'm Prajwal
 ========================================================================================================================================
 
-CSE Student
------------
+Computer Science Undergraduate
+------------------------------
 
-* based in Bengaluru, India
-* Currently working on DriftWatch
-* Contact: [prajwalpoojari451@gmail.com](mailto:prajwalpoojari451@gmail.com)
+* 📍 Based in Bengaluru, India
+* 🚀 Currently building [DriftWatch](https://driftwatchai.vercel.app)
+* 🌐 Portfolio: [Portfolio](https://prajwal-portfolio-page.vercel.app/)
+* 📧 Email: [prajwalpoojari451@gmail.com](mailto:prajwalpoojari451@gmail.com)
+
 
 
 <br>
