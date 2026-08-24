@@ -6,8 +6,8 @@ Computer Science Undergraduate
 ------------------------------
 
 * 📍 Based in Bengaluru, India
-* 🚀 Currently building [DriftWatch](https://driftwatchai.vercel.app)
-* 🌐 Portfolio: [Portfolio](https://prajwal-portfolio-page.vercel.app/)
+* 🚀 Currently building [ARGUS](https://github.com/user1-prajwal/argus)
+* 🌐 Portfolio: [Portfolio](https://heyprajwal.vercel.app/)
 * 📧 Email: [prajwalpoojari451@gmail.com](mailto:prajwalpoojari451@gmail.com)
 
 
