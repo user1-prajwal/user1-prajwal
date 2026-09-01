@@ -1,9 +1,9 @@
 name: Update Merged PR Count
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch:
 
 permissions:
   contents: write
@@ -16,30 +16,33 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Count merged pull requests
+      - name: Count merged PRs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          COUNT=$(gh api --paginate \
-            -H "Accept: application/vnd.github+json" \
-            "/search/issues?q=author:user1-prajwal+is:pr+is:merged" \
-            --jq '.items | length' | awk '{s+=$1} END {print s}')
+          COUNT=$(gh search prs "author:user1-prajwal is:merged" --limit 1000 --json number --jq 'length')
 
-          echo "Merged PR count: $COUNT"
+          echo "Merged PRs: $COUNT"
 
           cat > assets/merged-prs.svg <<EOF
-          <svg xmlns="http://www.w3.org/2000/svg" width="180" height="30">
-            <rect width="180" height="30" rx="4" fill="#24292f"/>
+          <svg xmlns="http://www.w3.org/2000/svg" width="190" height="30">
+            <rect width="190" height="30" rx="5" fill="#24292f"/>
             <text x="10" y="20" fill="white" font-family="Arial" font-size="14">
               Merged PRs: $COUNT
             </text>
           </svg>
           EOF
 
-      - name: Commit updated badge
+      - name: Commit badge
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add assets/merged-prs.svg
-          git diff --cached --quiet || git commit -m "Update merged PR count"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update merged PR count"
+            git push
+          fi
