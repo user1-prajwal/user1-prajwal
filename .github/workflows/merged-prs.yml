@@ -16,24 +16,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Count merged PRs
+      - name: Count merged pull requests
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          COUNT=$(gh search prs \
-            --author=user1-prajwal \
-            --merged \
-            --owner=user1-prajwal \
-            --json number \
-            --jq 'length')
+          COUNT=$(gh api --paginate \
+            -H "Accept: application/vnd.github+json" \
+            "/search/issues?q=author:user1-prajwal+is:pr+is:merged" \
+            --jq '.items | length' | awk '{s+=$1} END {print s}')
 
-          echo "Merged PRs: $COUNT"
+          echo "Merged PR count: $COUNT"
 
           cat > assets/merged-prs.svg <<EOF
           <svg xmlns="http://www.w3.org/2000/svg" width="180" height="30">
             <rect width="180" height="30" rx="4" fill="#24292f"/>
             <text x="10" y="20" fill="white" font-family="Arial" font-size="14">
-              🔀 Merged PRs: $COUNT
+              Merged PRs: $COUNT
             </text>
           </svg>
           EOF
