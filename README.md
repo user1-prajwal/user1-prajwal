@@ -16,7 +16,9 @@ Computer Science Undergraduate
 
 <!-- 👁️ Visitor Count -->
 <p align="left">
-<img src="https://komarev.com/ghpvc/?username=user1-prajwal&label=Profile%20views&color=0e75b6&style=flat" />
+<img src="https://komarev.com/ghpvc/?username=user1-prajwal&label=Profile%20views&color=0e75b6&style=flat"/>
+  
+<img src="https://img.shields.io/badge/Merged%20PRs-16-238636?style=flat" />
 </p>
 
 <br>
